@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">298316008445-cgvnijolf627089o89tr8i1d1goplvqo.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://ant2bleheartrate.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">298316008445</string>
+    <string name="google_api_key" translatable="false">AIzaSyBECYx7gOxaUbf3nMauBWmkLs12XM5H124</string>
+    <string name="google_app_id" translatable="false">1:298316008445:android:421f81b0e6712c29</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBECYx7gOxaUbf3nMauBWmkLs12XM5H124</string>
+    <string name="google_storage_bucket" translatable="false">ant2bleheartrate.appspot.com</string>
+</resources>

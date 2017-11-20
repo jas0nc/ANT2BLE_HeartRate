@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "298316008445",
+    "firebase_url": "https://ant2bleheartrate.firebaseio.com",
+    "project_id": "ant2bleheartrate",
+    "storage_bucket": "ant2bleheartrate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298316008445:android:421f81b0e6712c29",
+        "android_client_info": {
+          "package_name": "chan.jas0n.ANT2BLE_HeartRate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298316008445-cgvnijolf627089o89tr8i1d1goplvqo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBECYx7gOxaUbf3nMauBWmkLs12XM5H124"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

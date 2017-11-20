@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">ANT+ to BLE HeartRate</string>
+    <string name="banner_ad_unit_id">ca-app-pub-4678027768868902/5114920072</string>
+    <string name="banner_ad_unit_id2">ca-app-pub-4678027768868902/7134880078</string>
+    <string name="samplebanner_ad_unit_id">cca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="menu_reset">Reset ANT+ Connection</string>
+    <string name="ant_reset">Reset ANT+ Connection</string>
+    <string name="reset_BLE">Reset BLE Connection</string>
+    <string name="no_activities_available">No ANT+ Activities Available</string>
+    <string-array name="device_types">
+        <item>ANT+ Bike Power</item>
+        <item>ANT+ Controllable Device</item>
+        <item>ANT+ Fitness Equipment</item>
+        <item>ANT+ Blood Pressure</item>
+        <item>ANT+ Geocache</item>
+        <item>ANT+ Environment</item>
+        <item>ANT+ Weight Scale</item>
+        <item>ANT+ Heart Rate</item>
+        <item>ANT+ Bike Speed and Cadence</item>
+        <item>ANT+ Bike Cadence</item>
+        <item>ANT+ Bike Speed</item>
+        <item>ANT+ Stride-based Speed and Distance</item>
+    </string-array>
+
+    <string name="label_multiDeviceSearchButton">Start ANT+ Search</string>
+    <string name="searchingText">Searching for ANT+ devices&#8230;</string>
+    <string name="label_alreadyConnected">Already Connected ANT+ Devices:</string>
+    <string name="label_foundDevices">ANT+ Devices Found In Scan:</string>
+    <string name="label_selectAll">Select All</string>
+    <string name="label_deviceTypeFilter">Select ANT+ Device Types to Search:</string>
+    <string name="label_RSSI">ANT+ RSSI: </string>
+
+    <!-- other -->
+    <string name="ble_uuid">CDB7950D-73F1-4D4D-8E47-C090502DBD63</string>
+
+    <!-- ANT+ to BLE HeartRate -->
+    <string name="title_activity_peripheral">Peripheral</string>
+
+    <!-- Bluetooth -->
+    <string name="bluetoothNotSupported">ANT+ to BLE HeartRate closing: Bluetooth Not Supported</string>
+    <string name="bluetoothNotEnabled">ANT+ to BLE HeartRate closing: Bluetooth is Not Enabled</string>
+    <string name="bluetoothAdvertisingNotSupported">ANT+ to BLE HeartRate closing: BLE Advertising Not Supported</string>
+
+    <!-- Adv -->
+    <string name="label_advertisingStatus">BLE Advertising Status</string>
+    <string name="status_advertising">BLE Advertising (Keep Screen On)</string>
+    <string name="status_notAdvertising">BLE Not Advertising</string>
+    <string name="status_advDataTooLarge">BLE Not Advertising. Advertisement is larger than 31 bytes.</string>
+    <string name="status_advFeatureUnsupported">BLE Not Advertising. Advertising not supported.</string>
+    <string name="status_advInternalError">BLE Not Advertising. Internal error occurred.</string>
+    <string name="status_advTooManyAdvertisers">BLE Not Advertising. No advertising instance is available.</string>
+
+    <!-- Connection -->
+    <string name="label_connectionStatus">BLE Connection Status</string>
+    <string name="status_devicesConnected">BLE Devices Connected</string>
+    <string name="status_errorWhenConnecting">An error occurred when connecting to a BLE device. Error Code</string>
+
+    <!-- Hear Rate Service -->
+    <string name="label_bodySensorLocation">BLE Body Sensor Location</string>
+    <string name="heartRateServiceName">BLE Heart Rate Service</string>
+    <string name="label_heartRateMeasurementValue">BLE Heart Rate</string>
+    <string name="label_energyExpended">BLE Energy Expended</string>
+    <string name="heartRateMeasurementValueInvalid">Please enter a number between 0 and 255</string>
+    <string name="energyExpendedInvalid">Please enter a number between 0 and 65535</string>
+
+    <string name="notificationsEnabled">Notifications enabled</string>
+    <string name="notificationsNotEnabled">Notifications not enabled</string>
+    <string name="status_noLeAdv">BLE LE Advertising is not available. Please pair with a device to be
+        discoverable.
+    </string>
+
+</resources>

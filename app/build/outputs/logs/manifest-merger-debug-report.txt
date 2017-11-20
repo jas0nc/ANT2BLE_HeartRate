@@ -1,0 +1,269 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml:2:1-36:12
+	package
+		ADDED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml:3:5-43
+		INJECTED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml:5:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml:6:5-73
+	android:name
+		ADDED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml:6:22-71
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml:9:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.4] C:\Users\JACHAN\.android\build-cache\edccbe48970863c177d0e9edff2555fddaa7c120\output\AndroidManifest.xml:19:5-66
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\JACHAN\.android\build-cache\bdeafee2ebc07286409059b0dd499d94053aa8d6\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\JACHAN\.android\build-cache\71b2cdf74a65a8c8b5887b40039463fabc54a122\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\JACHAN\.android\build-cache\d1ef51abb23d5648dd6fd579b26a447ea9cf9af6\output\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml:10:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.4] C:\Users\JACHAN\.android\build-cache\edccbe48970863c177d0e9edff2555fddaa7c120\output\AndroidManifest.xml:20:5-78
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\JACHAN\.android\build-cache\bdeafee2ebc07286409059b0dd499d94053aa8d6\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\JACHAN\.android\build-cache\71b2cdf74a65a8c8b5887b40039463fabc54a122\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\JACHAN\.android\build-cache\d1ef51abb23d5648dd6fd579b26a447ea9cf9af6\output\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml:10:22-76
+application
+ADDED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml:12:5-34:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\JACHAN\.android\build-cache\31e8f2bc2ef734528783e49309bf128ada6ccaf7\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\JACHAN\.android\build-cache\a5c0e7b3db93833e8cc9c5a9bfb932ad530a6ec0\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\JACHAN\.android\build-cache\2ff6e098bfb2d6659bc41448167af0fd17c3fd4a\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\JACHAN\.android\build-cache\f210a96104274016aca96e3655f64512306ab754\output\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-ads:10.2.4] C:\Users\JACHAN\.android\build-cache\fe6d3902b27866bb178296df1ddc94cc2c483649\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.4] C:\Users\JACHAN\.android\build-cache\edccbe48970863c177d0e9edff2555fddaa7c120\output\AndroidManifest.xml:23:5-27:19
+MERGED from [com.google.android.gms:play-services-clearcut:10.2.4] C:\Users\JACHAN\.android\build-cache\cffa8a95b60df0d2e39156f175fc5ce9628f99a3\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.4] C:\Users\JACHAN\.android\build-cache\c5dc7773b1e0376901f5656a89eabf4471068bfa\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-gass:10.2.4] C:\Users\JACHAN\.android\build-cache\057598f8c0476034a3af0d4c8ffe9c0677862d0b\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.firebase:firebase-core:10.2.4] C:\Users\JACHAN\.android\build-cache\3778483e9395b9d45e29c279e2f771fa8130485c\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\JACHAN\.android\build-cache\bdeafee2ebc07286409059b0dd499d94053aa8d6\output\AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\JACHAN\.android\build-cache\71b2cdf74a65a8c8b5887b40039463fabc54a122\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\JACHAN\.android\build-cache\d1ef51abb23d5648dd6fd579b26a447ea9cf9af6\output\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:10.2.4] C:\Users\JACHAN\.android\build-cache\fe2ebff5148b4a7e1de7771df5174bda3d52860c\output\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] C:\Users\JACHAN\.android\build-cache\ef896b1070d679c5622e57ee408eb2b7f064449f\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\JACHAN\.android\build-cache\21aaf3464b4a6ebdb012e79783b4f3090e81d114\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\JACHAN\.android\build-cache\72759072edfcbc2c72d3830c1875d253cdb8141b\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\JACHAN\.android\build-cache\081668de2e3f058a81a0fa3c7c255daa9389361e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\JACHAN\.android\build-cache\d7cf96e8e8df00acdefb65949d834ad2bc915d28\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\JACHAN\.android\build-cache\402c6f4f092e1dc2155e50b8d34cc69ceb82e514\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\JACHAN\.android\build-cache\e0b8373d29eac01d5f6d593ddcc1ec2e0ed75b95\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\JACHAN\.android\build-cache\1586fe5c4eb8b568a20994744386a7aa82e8ae9d\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml:15:9-41
+	android:supportsRtl
+		ADDED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml:17:9-35
+	android:roundIcon
+		ADDED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml:16:9-54
+	android:allowBackup
+		ADDED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml:13:9-35
+	android:icon
+		ADDED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml:14:9-43
+	android:theme
+		ADDED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml:18:9-40
+	android:name
+		ADDED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml:19:9-68
+meta-data#com.google.android.gms.version
+ADDED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml:21:9-22:69
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\JACHAN\.android\build-cache\21aaf3464b4a6ebdb012e79783b4f3090e81d114\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml:22:13-66
+	android:name
+		ADDED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml:21:20-65
+activity#chan.jas0n.ANT2BLE_HeartRate.MainActivity
+ADDED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml:23:9-29:20
+	android:name
+		ADDED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml:23:19-75
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml:24:13-28:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml:27:27-74
+activity#com.google.android.gms.ads.AdActivity
+ADDED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml:31:9-33:64
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.4] C:\Users\JACHAN\.android\build-cache\edccbe48970863c177d0e9edff2555fddaa7c120\output\AndroidManifest.xml:25:9-232
+	android:configChanges
+		ADDED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml:32:13-122
+	android:theme
+		ADDED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml:33:13-61
+	android:name
+		ADDED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml:31:19-71
+uses-sdk
+INJECTED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\JACHAN\.android\build-cache\31e8f2bc2ef734528783e49309bf128ada6ccaf7\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\JACHAN\.android\build-cache\a5c0e7b3db93833e8cc9c5a9bfb932ad530a6ec0\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\JACHAN\.android\build-cache\2ff6e098bfb2d6659bc41448167af0fd17c3fd4a\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\JACHAN\.android\build-cache\f210a96104274016aca96e3655f64512306ab754\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-ads:10.2.4] C:\Users\JACHAN\.android\build-cache\fe6d3902b27866bb178296df1ddc94cc2c483649\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads:10.2.4] C:\Users\JACHAN\.android\build-cache\9cd3635753d5a9506523759f83e4c5ca7d971b92\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.4] C:\Users\JACHAN\.android\build-cache\edccbe48970863c177d0e9edff2555fddaa7c120\output\AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:10.2.4] C:\Users\JACHAN\.android\build-cache\cffa8a95b60df0d2e39156f175fc5ce9628f99a3\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.4] C:\Users\JACHAN\.android\build-cache\c5dc7773b1e0376901f5656a89eabf4471068bfa\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gass:10.2.4] C:\Users\JACHAN\.android\build-cache\057598f8c0476034a3af0d4c8ffe9c0677862d0b\output\AndroidManifest.xml:3:5-43
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\JACHAN\.android\build-cache\a54510c2045056b35a92993b85c89aa308b5e440\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-core:10.2.4] C:\Users\JACHAN\.android\build-cache\3778483e9395b9d45e29c279e2f771fa8130485c\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\JACHAN\.android\build-cache\bdeafee2ebc07286409059b0dd499d94053aa8d6\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\JACHAN\.android\build-cache\71b2cdf74a65a8c8b5887b40039463fabc54a122\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\JACHAN\.android\build-cache\d1ef51abb23d5648dd6fd579b26a447ea9cf9af6\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:10.2.4] C:\Users\JACHAN\.android\build-cache\fe2ebff5148b4a7e1de7771df5174bda3d52860c\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] C:\Users\JACHAN\.android\build-cache\ef896b1070d679c5622e57ee408eb2b7f064449f\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\JACHAN\.android\build-cache\21aaf3464b4a6ebdb012e79783b4f3090e81d114\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\JACHAN\.android\build-cache\72759072edfcbc2c72d3830c1875d253cdb8141b\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\JACHAN\.android\build-cache\081668de2e3f058a81a0fa3c7c255daa9389361e\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\JACHAN\.android\build-cache\d7cf96e8e8df00acdefb65949d834ad2bc915d28\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\JACHAN\.android\build-cache\402c6f4f092e1dc2155e50b8d34cc69ceb82e514\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\JACHAN\.android\build-cache\e0b8373d29eac01d5f6d593ddcc1ec2e0ed75b95\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\JACHAN\.android\build-cache\1586fe5c4eb8b568a20994744386a7aa82e8ae9d\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\JACHAN\.android\build-cache\31e8f2bc2ef734528783e49309bf128ada6ccaf7\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\JACHAN\AndroidStudioProject\ANT+2BLE_HeartRate\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\JACHAN\.android\build-cache\31e8f2bc2ef734528783e49309bf128ada6ccaf7\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\JACHAN\.android\build-cache\a5c0e7b3db93833e8cc9c5a9bfb932ad530a6ec0\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\JACHAN\.android\build-cache\2ff6e098bfb2d6659bc41448167af0fd17c3fd4a\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\JACHAN\.android\build-cache\72759072edfcbc2c72d3830c1875d253cdb8141b\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\JACHAN\.android\build-cache\081668de2e3f058a81a0fa3c7c255daa9389361e\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\JACHAN\.android\build-cache\d7cf96e8e8df00acdefb65949d834ad2bc915d28\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\JACHAN\.android\build-cache\402c6f4f092e1dc2155e50b8d34cc69ceb82e514\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\JACHAN\.android\build-cache\e0b8373d29eac01d5f6d593ddcc1ec2e0ed75b95\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\JACHAN\.android\build-cache\1586fe5c4eb8b568a20994744386a7aa82e8ae9d\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\JACHAN\.android\build-cache\31e8f2bc2ef734528783e49309bf128ada6ccaf7\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\JACHAN\.android\build-cache\31e8f2bc2ef734528783e49309bf128ada6ccaf7\output\AndroidManifest.xml:26:9-47
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:10.2.4] C:\Users\JACHAN\.android\build-cache\edccbe48970863c177d0e9edff2555fddaa7c120\output\AndroidManifest.xml:26:9-131
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.4] C:\Users\JACHAN\.android\build-cache\edccbe48970863c177d0e9edff2555fddaa7c120\output\AndroidManifest.xml:26:92-129
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.4] C:\Users\JACHAN\.android\build-cache\edccbe48970863c177d0e9edff2555fddaa7c120\output\AndroidManifest.xml:26:19-91
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.2.4] C:\Users\JACHAN\.android\build-cache\c5dc7773b1e0376901f5656a89eabf4471068bfa\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.2.4] C:\Users\JACHAN\.android\build-cache\c5dc7773b1e0376901f5656a89eabf4471068bfa\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.2.4] C:\Users\JACHAN\.android\build-cache\c5dc7773b1e0376901f5656a89eabf4471068bfa\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.2.4] C:\Users\JACHAN\.android\build-cache\c5dc7773b1e0376901f5656a89eabf4471068bfa\output\AndroidManifest.xml:19:19-85
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\JACHAN\.android\build-cache\bdeafee2ebc07286409059b0dd499d94053aa8d6\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\JACHAN\.android\build-cache\71b2cdf74a65a8c8b5887b40039463fabc54a122\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\JACHAN\.android\build-cache\d1ef51abb23d5648dd6fd579b26a447ea9cf9af6\output\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\JACHAN\.android\build-cache\bdeafee2ebc07286409059b0dd499d94053aa8d6\output\AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\JACHAN\.android\build-cache\bdeafee2ebc07286409059b0dd499d94053aa8d6\output\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\JACHAN\.android\build-cache\71b2cdf74a65a8c8b5887b40039463fabc54a122\output\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\JACHAN\.android\build-cache\bdeafee2ebc07286409059b0dd499d94053aa8d6\output\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\JACHAN\.android\build-cache\bdeafee2ebc07286409059b0dd499d94053aa8d6\output\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\JACHAN\.android\build-cache\bdeafee2ebc07286409059b0dd499d94053aa8d6\output\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\JACHAN\.android\build-cache\bdeafee2ebc07286409059b0dd499d94053aa8d6\output\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\JACHAN\.android\build-cache\bdeafee2ebc07286409059b0dd499d94053aa8d6\output\AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\JACHAN\.android\build-cache\bdeafee2ebc07286409059b0dd499d94053aa8d6\output\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\JACHAN\.android\build-cache\bdeafee2ebc07286409059b0dd499d94053aa8d6\output\AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\JACHAN\.android\build-cache\bdeafee2ebc07286409059b0dd499d94053aa8d6\output\AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\JACHAN\.android\build-cache\bdeafee2ebc07286409059b0dd499d94053aa8d6\output\AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\JACHAN\.android\build-cache\bdeafee2ebc07286409059b0dd499d94053aa8d6\output\AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\JACHAN\.android\build-cache\bdeafee2ebc07286409059b0dd499d94053aa8d6\output\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\JACHAN\.android\build-cache\71b2cdf74a65a8c8b5887b40039463fabc54a122\output\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\JACHAN\.android\build-cache\bdeafee2ebc07286409059b0dd499d94053aa8d6\output\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\JACHAN\.android\build-cache\bdeafee2ebc07286409059b0dd499d94053aa8d6\output\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\JACHAN\.android\build-cache\bdeafee2ebc07286409059b0dd499d94053aa8d6\output\AndroidManifest.xml:32:16-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\JACHAN\.android\build-cache\d1ef51abb23d5648dd6fd579b26a447ea9cf9af6\output\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\JACHAN\.android\build-cache\d1ef51abb23d5648dd6fd579b26a447ea9cf9af6\output\AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\JACHAN\.android\build-cache\d1ef51abb23d5648dd6fd579b26a447ea9cf9af6\output\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\JACHAN\.android\build-cache\d1ef51abb23d5648dd6fd579b26a447ea9cf9af6\output\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\JACHAN\.android\build-cache\d1ef51abb23d5648dd6fd579b26a447ea9cf9af6\output\AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\JACHAN\.android\build-cache\d1ef51abb23d5648dd6fd579b26a447ea9cf9af6\output\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\JACHAN\.android\build-cache\d1ef51abb23d5648dd6fd579b26a447ea9cf9af6\output\AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\JACHAN\.android\build-cache\d1ef51abb23d5648dd6fd579b26a447ea9cf9af6\output\AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\JACHAN\.android\build-cache\d1ef51abb23d5648dd6fd579b26a447ea9cf9af6\output\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\JACHAN\.android\build-cache\d1ef51abb23d5648dd6fd579b26a447ea9cf9af6\output\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\JACHAN\.android\build-cache\d1ef51abb23d5648dd6fd579b26a447ea9cf9af6\output\AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\JACHAN\.android\build-cache\d1ef51abb23d5648dd6fd579b26a447ea9cf9af6\output\AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\JACHAN\.android\build-cache\d1ef51abb23d5648dd6fd579b26a447ea9cf9af6\output\AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\JACHAN\.android\build-cache\d1ef51abb23d5648dd6fd579b26a447ea9cf9af6\output\AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\JACHAN\.android\build-cache\d1ef51abb23d5648dd6fd579b26a447ea9cf9af6\output\AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\JACHAN\.android\build-cache\d1ef51abb23d5648dd6fd579b26a447ea9cf9af6\output\AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\JACHAN\.android\build-cache\d1ef51abb23d5648dd6fd579b26a447ea9cf9af6\output\AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\JACHAN\.android\build-cache\d1ef51abb23d5648dd6fd579b26a447ea9cf9af6\output\AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\JACHAN\.android\build-cache\d1ef51abb23d5648dd6fd579b26a447ea9cf9af6\output\AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\JACHAN\.android\build-cache\d1ef51abb23d5648dd6fd579b26a447ea9cf9af6\output\AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\JACHAN\.android\build-cache\d1ef51abb23d5648dd6fd579b26a447ea9cf9af6\output\AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\JACHAN\.android\build-cache\d1ef51abb23d5648dd6fd579b26a447ea9cf9af6\output\AndroidManifest.xml:43:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\JACHAN\.android\build-cache\d1ef51abb23d5648dd6fd579b26a447ea9cf9af6\output\AndroidManifest.xml:44:13-46:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\JACHAN\.android\build-cache\d1ef51abb23d5648dd6fd579b26a447ea9cf9af6\output\AndroidManifest.xml:44:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\JACHAN\.android\build-cache\d1ef51abb23d5648dd6fd579b26a447ea9cf9af6\output\AndroidManifest.xml:45:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\JACHAN\.android\build-cache\d1ef51abb23d5648dd6fd579b26a447ea9cf9af6\output\AndroidManifest.xml:45:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:10.2.4] C:\Users\JACHAN\.android\build-cache\fe2ebff5148b4a7e1de7771df5174bda3d52860c\output\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:10.2.4] C:\Users\JACHAN\.android\build-cache\fe2ebff5148b4a7e1de7771df5174bda3d52860c\output\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:10.2.4] C:\Users\JACHAN\.android\build-cache\fe2ebff5148b4a7e1de7771df5174bda3d52860c\output\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:10.2.4] C:\Users\JACHAN\.android\build-cache\fe2ebff5148b4a7e1de7771df5174bda3d52860c\output\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:10.2.4] C:\Users\JACHAN\.android\build-cache\fe2ebff5148b4a7e1de7771df5174bda3d52860c\output\AndroidManifest.xml:6:79-143
