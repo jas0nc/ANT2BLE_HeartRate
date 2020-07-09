@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "applicationId": "chan.jas0n.ANT2BLE_HeartRate2020",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "BUNDLE"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": -1,
+        "fullName": "",
+        "baseName": "",
+        "dirName": ""
+      },
+      "path": "../../../../release/app-release.aab",
+      "properties": {}
+    }
+  ]
+}

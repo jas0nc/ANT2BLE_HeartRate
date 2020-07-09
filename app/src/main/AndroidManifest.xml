@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="chan.jas0n.ANT2BLE_HeartRate">
+    package="chan.jas0n.ANT2BLE_HeartRate2020">
 
     <uses-permission android:name="android.permission.BLUETOOTH"/>
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
@@ -16,11 +16,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:name="android.support.multidex.MultiDexApplication">
+        android:name="android.support.multidex.MultiDexApplication" >
         <!--This meta-data tag is required to use Google Play Services.-->
         <meta-data android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-        <activity android:name="chan.jas0n.ANT2BLE_HeartRate.MainActivity">
+        <activity android:name="chan.jas0n.ANT2BLE_HeartRate2020.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

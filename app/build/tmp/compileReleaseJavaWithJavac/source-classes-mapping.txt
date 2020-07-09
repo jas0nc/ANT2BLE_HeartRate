@@ -1,0 +1,35 @@
+chan/jas0n/ANT2BLE_HeartRate2020/ArrayAdapter_MultiDeviceSearchResult.java
+ chan.jas0n.ANT2BLE_HeartRate2020.ArrayAdapter_MultiDeviceSearchResult
+chan/jas0n/ANT2BLE_HeartRate2020/ServiceFragment.java
+ chan.jas0n.ANT2BLE_HeartRate2020.ServiceFragment
+ chan.jas0n.ANT2BLE_HeartRate2020.ServiceFragment$ServiceFragmentDelegate
+chan/jas0n/ANT2BLE_HeartRate2020/Activity_MultiDeviceSearchSampler.java
+ chan.jas0n.ANT2BLE_HeartRate2020.Activity_MultiDeviceSearchSampler
+ chan.jas0n.ANT2BLE_HeartRate2020.Activity_MultiDeviceSearchSampler$1
+ chan.jas0n.ANT2BLE_HeartRate2020.Activity_MultiDeviceSearchSampler$2
+ chan.jas0n.ANT2BLE_HeartRate2020.Activity_MultiDeviceSearchSampler$3
+ chan.jas0n.ANT2BLE_HeartRate2020.Activity_MultiDeviceSearchSampler$3$1
+ chan.jas0n.ANT2BLE_HeartRate2020.Activity_MultiDeviceSearchSampler$3$2
+ chan.jas0n.ANT2BLE_HeartRate2020.Activity_MultiDeviceSearchSampler$4
+ chan.jas0n.ANT2BLE_HeartRate2020.Activity_MultiDeviceSearchSampler$4$1
+ chan.jas0n.ANT2BLE_HeartRate2020.Activity_MultiDeviceSearchSampler$5
+ chan.jas0n.ANT2BLE_HeartRate2020.Activity_MultiDeviceSearchSampler$MultiDeviceSearchResultWithRSSI
+chan/jas0n/ANT2BLE_HeartRate2020/MainActivity.java
+ chan.jas0n.ANT2BLE_HeartRate2020.MainActivity
+ chan.jas0n.ANT2BLE_HeartRate2020.MainActivity$1
+ chan.jas0n.ANT2BLE_HeartRate2020.MainActivity$10
+ chan.jas0n.ANT2BLE_HeartRate2020.MainActivity$2
+ chan.jas0n.ANT2BLE_HeartRate2020.MainActivity$3
+ chan.jas0n.ANT2BLE_HeartRate2020.MainActivity$3$1
+ chan.jas0n.ANT2BLE_HeartRate2020.MainActivity$4
+ chan.jas0n.ANT2BLE_HeartRate2020.MainActivity$4$1
+ chan.jas0n.ANT2BLE_HeartRate2020.MainActivity$4$2
+ chan.jas0n.ANT2BLE_HeartRate2020.MainActivity$5
+ chan.jas0n.ANT2BLE_HeartRate2020.MainActivity$5$1
+ chan.jas0n.ANT2BLE_HeartRate2020.MainActivity$6
+ chan.jas0n.ANT2BLE_HeartRate2020.MainActivity$7
+ chan.jas0n.ANT2BLE_HeartRate2020.MainActivity$8
+ chan.jas0n.ANT2BLE_HeartRate2020.MainActivity$8$1
+ chan.jas0n.ANT2BLE_HeartRate2020.MainActivity$9
+chan/jas0n/ANT2BLE_HeartRate2020/BuildConfig.java
+ chan.jas0n.ANT2BLE_HeartRate2020.BuildConfig

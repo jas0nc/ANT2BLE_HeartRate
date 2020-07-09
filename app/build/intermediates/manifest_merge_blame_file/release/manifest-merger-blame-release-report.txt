@@ -1,0 +1,206 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="chan.jas0n.ANT2BLE_HeartRate2020"
+4    android:versionCode="2"
+5    android:versionName="2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="25"
+8-->C:\Users\jachan\Documents\GitHub\ANT2BLE_HeartRate\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\jachan\Documents\GitHub\ANT2BLE_HeartRate\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->C:\Users\jachan\Documents\GitHub\ANT2BLE_HeartRate\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\jachan\Documents\GitHub\ANT2BLE_HeartRate\app\src\main\AndroidManifest.xml:5:22-65
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+12-->C:\Users\jachan\Documents\GitHub\ANT2BLE_HeartRate\app\src\main\AndroidManifest.xml:6:5-73
+12-->C:\Users\jachan\Documents\GitHub\ANT2BLE_HeartRate\app\src\main\AndroidManifest.xml:6:22-71
+13
+14    <!-- Include required permissions for Google Mobile Ads to run -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\jachan\Documents\GitHub\ANT2BLE_HeartRate\app\src\main\AndroidManifest.xml:9:5-66
+15-->C:\Users\jachan\Documents\GitHub\ANT2BLE_HeartRate\app\src\main\AndroidManifest.xml:9:22-64
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->C:\Users\jachan\Documents\GitHub\ANT2BLE_HeartRate\app\src\main\AndroidManifest.xml:10:5-78
+16-->C:\Users\jachan\Documents\GitHub\ANT2BLE_HeartRate\app\src\main\AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\eba33d0180fcdc505ecdfa98e3eb9b22\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:25:5-68
+17-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\eba33d0180fcdc505ecdfa98e3eb9b22\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:25:22-65
+18    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+18-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\eba33d0180fcdc505ecdfa98e3eb9b22\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:26:5-110
+18-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\eba33d0180fcdc505ecdfa98e3eb9b22\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:26:22-107
+19    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+19-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\7263c9611d6855461ab098805be8db0d\jetified-firebase-iid-20.0.2\AndroidManifest.xml:26:5-82
+19-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\7263c9611d6855461ab098805be8db0d\jetified-firebase-iid-20.0.2\AndroidManifest.xml:26:22-79
+20
+21    <application
+21-->C:\Users\jachan\Documents\GitHub\ANT2BLE_HeartRate\app\src\main\AndroidManifest.xml:12:5-34:19
+22        android:name="android.support.multidex.MultiDexApplication"
+22-->C:\Users\jachan\Documents\GitHub\ANT2BLE_HeartRate\app\src\main\AndroidManifest.xml:19:9-68
+23        android:allowBackup="true"
+23-->C:\Users\jachan\Documents\GitHub\ANT2BLE_HeartRate\app\src\main\AndroidManifest.xml:13:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.0.0] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\51f38c5e19f1851988e6f925462e9b5f\core-1.0.0\AndroidManifest.xml:22:18-86
+25        android:extractNativeLibs="false"
+26        android:icon="@mipmap/ic_launcher"
+26-->C:\Users\jachan\Documents\GitHub\ANT2BLE_HeartRate\app\src\main\AndroidManifest.xml:14:9-43
+27        android:label="@string/app_name"
+27-->C:\Users\jachan\Documents\GitHub\ANT2BLE_HeartRate\app\src\main\AndroidManifest.xml:15:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->C:\Users\jachan\Documents\GitHub\ANT2BLE_HeartRate\app\src\main\AndroidManifest.xml:16:9-54
+29        android:supportsRtl="true"
+29-->C:\Users\jachan\Documents\GitHub\ANT2BLE_HeartRate\app\src\main\AndroidManifest.xml:17:9-35
+30        android:theme="@style/AppTheme" >
+30-->C:\Users\jachan\Documents\GitHub\ANT2BLE_HeartRate\app\src\main\AndroidManifest.xml:18:9-40
+31
+32        <!-- This meta-data tag is required to use Google Play Services. -->
+33        <meta-data
+33-->C:\Users\jachan\Documents\GitHub\ANT2BLE_HeartRate\app\src\main\AndroidManifest.xml:21:9-22:69
+34            android:name="com.google.android.gms.version"
+34-->C:\Users\jachan\Documents\GitHub\ANT2BLE_HeartRate\app\src\main\AndroidManifest.xml:21:20-65
+35            android:value="@integer/google_play_services_version" />
+35-->C:\Users\jachan\Documents\GitHub\ANT2BLE_HeartRate\app\src\main\AndroidManifest.xml:22:13-66
+36
+37        <activity android:name="chan.jas0n.ANT2BLE_HeartRate2020.MainActivity" >
+37-->C:\Users\jachan\Documents\GitHub\ANT2BLE_HeartRate\app\src\main\AndroidManifest.xml:23:9-29:20
+37-->C:\Users\jachan\Documents\GitHub\ANT2BLE_HeartRate\app\src\main\AndroidManifest.xml:23:19-79
+38            <intent-filter>
+38-->C:\Users\jachan\Documents\GitHub\ANT2BLE_HeartRate\app\src\main\AndroidManifest.xml:24:13-28:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->C:\Users\jachan\Documents\GitHub\ANT2BLE_HeartRate\app\src\main\AndroidManifest.xml:25:17-69
+39-->C:\Users\jachan\Documents\GitHub\ANT2BLE_HeartRate\app\src\main\AndroidManifest.xml:25:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->C:\Users\jachan\Documents\GitHub\ANT2BLE_HeartRate\app\src\main\AndroidManifest.xml:27:17-77
+41-->C:\Users\jachan\Documents\GitHub\ANT2BLE_HeartRate\app\src\main\AndroidManifest.xml:27:27-74
+42            </intent-filter>
+43        </activity>
+44        <!-- Include the AdActivity configChanges and theme. -->
+45        <activity
+45-->C:\Users\jachan\Documents\GitHub\ANT2BLE_HeartRate\app\src\main\AndroidManifest.xml:31:9-33:64
+46            android:name="com.google.android.gms.ads.AdActivity"
+46-->C:\Users\jachan\Documents\GitHub\ANT2BLE_HeartRate\app\src\main\AndroidManifest.xml:31:19-71
+47            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+47-->C:\Users\jachan\Documents\GitHub\ANT2BLE_HeartRate\app\src\main\AndroidManifest.xml:32:13-122
+48            android:exported="false"
+48-->[com.google.android.gms:play-services-ads-lite:19.2.0] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\53c098ef8ee186562d97720d8b3c2389\jetified-play-services-ads-lite-19.2.0\AndroidManifest.xml:32:13-37
+49            android:theme="@android:style/Theme.Translucent" />
+49-->C:\Users\jachan\Documents\GitHub\ANT2BLE_HeartRate\app\src\main\AndroidManifest.xml:33:13-61
+50
+51        <receiver
+51-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\eba33d0180fcdc505ecdfa98e3eb9b22\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:29:9-33:20
+52            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+52-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\eba33d0180fcdc505ecdfa98e3eb9b22\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:30:13-85
+53            android:enabled="true"
+53-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\eba33d0180fcdc505ecdfa98e3eb9b22\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:31:13-35
+54            android:exported="false" >
+54-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\eba33d0180fcdc505ecdfa98e3eb9b22\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:32:13-37
+55        </receiver>
+56        <receiver
+56-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\eba33d0180fcdc505ecdfa98e3eb9b22\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:34:9-42:20
+57            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+57-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\eba33d0180fcdc505ecdfa98e3eb9b22\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:35:13-100
+58            android:enabled="true"
+58-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\eba33d0180fcdc505ecdfa98e3eb9b22\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:36:13-35
+59            android:exported="true"
+59-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\eba33d0180fcdc505ecdfa98e3eb9b22\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:37:13-36
+60            android:permission="android.permission.INSTALL_PACKAGES" >
+60-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\eba33d0180fcdc505ecdfa98e3eb9b22\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:38:13-69
+61            <intent-filter>
+61-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\eba33d0180fcdc505ecdfa98e3eb9b22\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:39:13-41:29
+62                <action android:name="com.android.vending.INSTALL_REFERRER" />
+62-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\eba33d0180fcdc505ecdfa98e3eb9b22\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:40:17-79
+62-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\eba33d0180fcdc505ecdfa98e3eb9b22\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:40:25-76
+63            </intent-filter>
+64        </receiver>
+65
+66        <service
+66-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\eba33d0180fcdc505ecdfa98e3eb9b22\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:44:9-47:40
+67            android:name="com.google.android.gms.measurement.AppMeasurementService"
+67-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\eba33d0180fcdc505ecdfa98e3eb9b22\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:45:13-84
+68            android:enabled="true"
+68-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\eba33d0180fcdc505ecdfa98e3eb9b22\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:46:13-35
+69            android:exported="false" />
+69-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\eba33d0180fcdc505ecdfa98e3eb9b22\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:47:13-37
+70        <service
+70-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\eba33d0180fcdc505ecdfa98e3eb9b22\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:48:9-52:72
+71            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+71-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\eba33d0180fcdc505ecdfa98e3eb9b22\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:49:13-87
+72            android:enabled="true"
+72-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\eba33d0180fcdc505ecdfa98e3eb9b22\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:50:13-35
+73            android:exported="false"
+73-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\eba33d0180fcdc505ecdfa98e3eb9b22\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:51:13-37
+74            android:permission="android.permission.BIND_JOB_SERVICE" />
+74-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\eba33d0180fcdc505ecdfa98e3eb9b22\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:52:13-69
+75        <service
+75-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\ce617c70a39aa6d93aa0be389f929df1\jetified-play-services-measurement-api-17.2.2\AndroidManifest.xml:27:9-33:19
+76            android:name="com.google.firebase.components.ComponentDiscoveryService"
+76-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\ce617c70a39aa6d93aa0be389f929df1\jetified-play-services-measurement-api-17.2.2\AndroidManifest.xml:28:13-84
+77            android:directBootAware="true"
+77-->[com.google.firebase:firebase-common:19.3.0] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\b7fb5300c893418cb8bbdeeb35073295\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+78            android:exported="false" >
+78-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\ce617c70a39aa6d93aa0be389f929df1\jetified-play-services-measurement-api-17.2.2\AndroidManifest.xml:29:13-37
+79            <meta-data
+79-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\ce617c70a39aa6d93aa0be389f929df1\jetified-play-services-measurement-api-17.2.2\AndroidManifest.xml:30:13-32:85
+80                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+80-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\ce617c70a39aa6d93aa0be389f929df1\jetified-play-services-measurement-api-17.2.2\AndroidManifest.xml:31:17-139
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\ce617c70a39aa6d93aa0be389f929df1\jetified-play-services-measurement-api-17.2.2\AndroidManifest.xml:32:17-82
+82            <meta-data
+82-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\7263c9611d6855461ab098805be8db0d\jetified-firebase-iid-20.0.2\AndroidManifest.xml:32:13-34:85
+83                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+83-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\7263c9611d6855461ab098805be8db0d\jetified-firebase-iid-20.0.2\AndroidManifest.xml:33:17-96
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\7263c9611d6855461ab098805be8db0d\jetified-firebase-iid-20.0.2\AndroidManifest.xml:34:17-82
+85        </service>
+86
+87        <provider
+87-->[com.google.android.gms:play-services-ads-lite:19.2.0] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\53c098ef8ee186562d97720d8b3c2389\jetified-play-services-ads-lite-19.2.0\AndroidManifest.xml:35:9-39:39
+88            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+88-->[com.google.android.gms:play-services-ads-lite:19.2.0] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\53c098ef8ee186562d97720d8b3c2389\jetified-play-services-ads-lite-19.2.0\AndroidManifest.xml:36:13-76
+89            android:authorities="chan.jas0n.ANT2BLE_HeartRate2020.mobileadsinitprovider"
+89-->[com.google.android.gms:play-services-ads-lite:19.2.0] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\53c098ef8ee186562d97720d8b3c2389\jetified-play-services-ads-lite-19.2.0\AndroidManifest.xml:37:13-73
+90            android:exported="false"
+90-->[com.google.android.gms:play-services-ads-lite:19.2.0] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\53c098ef8ee186562d97720d8b3c2389\jetified-play-services-ads-lite-19.2.0\AndroidManifest.xml:38:13-37
+91            android:initOrder="100" />
+91-->[com.google.android.gms:play-services-ads-lite:19.2.0] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\53c098ef8ee186562d97720d8b3c2389\jetified-play-services-ads-lite-19.2.0\AndroidManifest.xml:39:13-36
+92
+93        <receiver
+93-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\7263c9611d6855461ab098805be8db0d\jetified-firebase-iid-20.0.2\AndroidManifest.xml:37:9-44:20
+94            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+94-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\7263c9611d6855461ab098805be8db0d\jetified-firebase-iid-20.0.2\AndroidManifest.xml:38:13-78
+95            android:exported="true"
+95-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\7263c9611d6855461ab098805be8db0d\jetified-firebase-iid-20.0.2\AndroidManifest.xml:39:13-36
+96            android:permission="com.google.android.c2dm.permission.SEND" >
+96-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\7263c9611d6855461ab098805be8db0d\jetified-firebase-iid-20.0.2\AndroidManifest.xml:40:13-73
+97            <intent-filter>
+97-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\7263c9611d6855461ab098805be8db0d\jetified-firebase-iid-20.0.2\AndroidManifest.xml:41:13-43:29
+98                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+98-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\7263c9611d6855461ab098805be8db0d\jetified-firebase-iid-20.0.2\AndroidManifest.xml:42:17-81
+98-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\7263c9611d6855461ab098805be8db0d\jetified-firebase-iid-20.0.2\AndroidManifest.xml:42:25-78
+99            </intent-filter>
+100        </receiver>
+101
+102        <provider
+102-->[com.google.firebase:firebase-common:19.3.0] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\b7fb5300c893418cb8bbdeeb35073295\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+103            android:name="com.google.firebase.provider.FirebaseInitProvider"
+103-->[com.google.firebase:firebase-common:19.3.0] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\b7fb5300c893418cb8bbdeeb35073295\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+104            android:authorities="chan.jas0n.ANT2BLE_HeartRate2020.firebaseinitprovider"
+104-->[com.google.firebase:firebase-common:19.3.0] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\b7fb5300c893418cb8bbdeeb35073295\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+105            android:exported="false"
+105-->[com.google.firebase:firebase-common:19.3.0] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\b7fb5300c893418cb8bbdeeb35073295\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+106            android:initOrder="100" />
+106-->[com.google.firebase:firebase-common:19.3.0] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\b7fb5300c893418cb8bbdeeb35073295\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+107
+108        <activity
+108-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\bc5db412dccf486dbaed70a865012faa\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+109            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+109-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\bc5db412dccf486dbaed70a865012faa\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+110            android:exported="false"
+110-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\bc5db412dccf486dbaed70a865012faa\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+111            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+111-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\jachan\.gradle\caches\transforms-2\files-2.1\bc5db412dccf486dbaed70a865012faa\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+112    </application>
+113
+114</manifest>

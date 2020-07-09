@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "C:\\Users\\jachan\\Documents\\GitHub\\ANT2BLE_HeartRate\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\jachan\\Documents\\GitHub\\ANT2BLE_HeartRate\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\jachan\\Documents\\GitHub\\ANT2BLE_HeartRate\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\jachan\\Documents\\GitHub\\ANT2BLE_HeartRate\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\jachan\\Documents\\GitHub\\ANT2BLE_HeartRate\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\jachan\\Documents\\GitHub\\ANT2BLE_HeartRate\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\jachan\\Documents\\GitHub\\ANT2BLE_HeartRate\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_multidevice_scan.xml.flat",
+        "source": "C:\\Users\\jachan\\Documents\\GitHub\\ANT2BLE_HeartRate\\app\\src\\main\\res\\layout\\activity_multidevice_scan.xml"
+    },
+    {
+        "merged": "C:\\Users\\jachan\\Documents\\GitHub\\ANT2BLE_HeartRate\\app\\build\\intermediates\\res\\merged\\release\\layout_layout_multidevice_searchresult.xml.flat",
+        "source": "C:\\Users\\jachan\\Documents\\GitHub\\ANT2BLE_HeartRate\\app\\src\\main\\res\\layout\\layout_multidevice_searchresult.xml"
+    },
+    {
+        "merged": "C:\\Users\\jachan\\Documents\\GitHub\\ANT2BLE_HeartRate\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\jachan\\Documents\\GitHub\\ANT2BLE_HeartRate\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\jachan\\Documents\\GitHub\\ANT2BLE_HeartRate\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\jachan\\Documents\\GitHub\\ANT2BLE_HeartRate\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\jachan\\Documents\\GitHub\\ANT2BLE_HeartRate\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\jachan\\Documents\\GitHub\\ANT2BLE_HeartRate\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\jachan\\Documents\\GitHub\\ANT2BLE_HeartRate\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\jachan\\Documents\\GitHub\\ANT2BLE_HeartRate\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\jachan\\Documents\\GitHub\\ANT2BLE_HeartRate\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\jachan\\Documents\\GitHub\\ANT2BLE_HeartRate\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\jachan\\Documents\\GitHub\\ANT2BLE_HeartRate\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\jachan\\Documents\\GitHub\\ANT2BLE_HeartRate\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\jachan\\Documents\\GitHub\\ANT2BLE_HeartRate\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\jachan\\Documents\\GitHub\\ANT2BLE_HeartRate\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\jachan\\Documents\\GitHub\\ANT2BLE_HeartRate\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\jachan\\Documents\\GitHub\\ANT2BLE_HeartRate\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    }
+]

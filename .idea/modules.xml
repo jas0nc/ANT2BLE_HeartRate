@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ANT+2BLE_HeartRate.iml" filepath="$PROJECT_DIR$/ANT+2BLE_HeartRate.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ANT2BLE_HeartRate.iml" filepath="$PROJECT_DIR$/.idea/modules/ANT2BLE_HeartRate.iml" group="ANT2BLE_HeartRate" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="ANT2BLE_HeartRate/app" />
     </modules>
   </component>
 </project>

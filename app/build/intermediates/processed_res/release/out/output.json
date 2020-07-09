@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applicationId": "chan.jas0n.ANT2BLE_HeartRate2020",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "PROCESSED_RES"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 2,
+        "versionName": "2",
+        "outputFile": "app-release.apk",
+        "fullName": "release",
+        "baseName": "release",
+        "dirName": ""
+      },
+      "path": "resources-release.ap_",
+      "properties": {
+        "packageId": "chan.jas0n.ANT2BLE_HeartRate2020",
+        "split": "",
+        "minSdkVersion": "25"
+      }
+    }
+  ]
+}

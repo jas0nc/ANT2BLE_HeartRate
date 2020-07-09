@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:ads="http://schemas.android.com/apk/res-auto"
-    tools:context="chan.jas0n.ANT2BLE_HeartRate.MainActivity">
+    tools:context="chan.jas0n.ANT2BLE_HeartRate2020.MainActivity">
 
     <ScrollView
         android:id="@+id/scrollView1"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteY="0dp"
-        tools:layout_editor_absoluteX="8dp">
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintStart_toStartOf="parent"
+        ads:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -24,24 +25,24 @@
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="28sp"
+                android:text="ANT+ Status:"
                 android:textColor="#f1428e"
-                android:text="ANT+ Status:"/>
+                android:textSize="28sp" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#f1428e"
-                android:paddingBottom="3dp"
-                android:paddingTop="3dp">
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp">
 
                 <Button
                     android:id="@+id/button_ant_reset"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:text="@string/ant_reset"
                     android:textColor="#f1428e"
-                    android:textSize="16sp"
-                    android:text="@string/ant_reset"/>
+                    android:textSize="16sp" />
 
             </RelativeLayout>
 
@@ -50,16 +51,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="#f1428e"
-                android:paddingBottom="3dp"
-                android:paddingTop="3dp">
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp">
 
                 <TextView
                     android:id="@+id/textView_Status"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
-                    android:textSize="20sp"
-                    android:text="---"/>
+                    android:text="---"
+                    android:textSize="20sp" />
 
             </RelativeLayout>
 
@@ -68,27 +69,26 @@
                 android:id="@+id/adView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
                 android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
                 ads:adSize="BANNER"
-                ads:adUnitId="@string/banner_ad_unit_id">
-            </com.google.android.gms.ads.AdView>
+                ads:adUnitId="@string/banner_ad_unit_id"></com.google.android.gms.ads.AdView>
             <!--  textView_BLEPower  -->
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="28sp"
-                android:textColor="#4386f2"
                 android:paddingTop="20dp"
-                android:text="BLE Status:" />
+                android:text="BLE Status:"
+                android:textColor="#4386f2"
+                android:textSize="28sp" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="#4386f2"
-                android:paddingBottom="3dp"
-                android:paddingTop="3dp">
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp">
 
                 <Button
                     android:id="@+id/button_reset_BLE"
@@ -104,24 +104,24 @@
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:background="#4386f2"
-                android:paddingBottom="3dp"
-                android:paddingTop="3dp">
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp">
 
                 <TextView
                     android:id="@+id/textView_BLE_status"
                     android:layout_width="wrap_content"
                     android:layout_height="70dp"
                     android:layout_alignParentRight="true"
-                    android:textSize="15sp"
-                    android:text="---" />
+                    android:text="---"
+                    android:textSize="15sp" />
             </RelativeLayout>
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:background="#4386f2"
-                android:paddingBottom="3dp"
-                android:paddingTop="3dp">
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -137,8 +137,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
-                    android:textSize="30sp"
-                    android:text="---" />
+                    android:text="---"
+                    android:textSize="30sp" />
 
             </RelativeLayout>
 
@@ -147,12 +147,11 @@
                 android:id="@+id/adView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
                 android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
                 ads:adSize="BANNER"
-                ads:adUnitId="@string/banner_ad_unit_id2">
-            </com.google.android.gms.ads.AdView>
+                ads:adUnitId="@string/banner_ad_unit_id2"></com.google.android.gms.ads.AdView>
         </LinearLayout>
     </ScrollView>
 
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
